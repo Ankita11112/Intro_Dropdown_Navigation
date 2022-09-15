@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Epilogue:wght@500&family=Inter:wght@700&family=Karla&family=Lexend+Deca&family=Manrope:wght@500;700&family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Epilogue:wght@500;700&family=Inter:wght@700&family=Karla&family=Lexend+Deca&family=Manrope:wght@500;700&family=Overpass&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+nav {
+  height: 15vh;
+  width: 100vw;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.links h1 {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+.links ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.links li {
+  list-style: none;
+}
+.links a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: hsl(0, 0%, 41%);
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+.logo a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-size: 18px;
+}
+.logo button{
+  height: 40px;
+  width: 110px;
+  border-radius: 15px;
+  font-size: 16px;
+  color: hsl(0, 0%, 41%);
+  background-color: white;
+  border: 2px solid gray;
+}
+.make-picture {
+  display: flex;
+}
+.make {
+  height: 80vh;
+  width: 50vw;
+  justify-content: left;
+  margin-right: 0px;
+  margin-left: 150px;
+}
+.make h1 {
+  font-size: 76px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  line-height: 60px;
+  margin-right: 320px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+.make p {
+  font-size: 18px;
+  margin-right: 380px;
+  line-height: 24px;
+  color: hsl(0, 0%, 41%);
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+.make button {
+  margin-top: 20px;
+  height: 46px;
+  width: 126px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+}
+.icons {
+  margin-top: 90px;
+}
+#c {
+  margin-left: 50px;
+}
+#o {
+  margin-left: 45px;
+}
+#n {
+  margin-left: 45px;
+}
+.picture {
+  margin-right: 100px;
+}
+.picture img {
+  height: 515px;
+  width: 520px;
+  padding-right: 100px;
+}
